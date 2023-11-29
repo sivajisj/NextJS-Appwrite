@@ -56,7 +56,7 @@ export default function Login(){
                      className="p-2 border hover:text-black hover:bg-slate-300
                     mb-4 focus:outline-none border-gray-300 rounded-lg"
                     >
-                        Login heres
+                        Login here
                     </button>
 
                     <Link href={"/signup"}>Create new Account</Link>
