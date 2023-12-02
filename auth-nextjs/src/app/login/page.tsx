@@ -24,8 +24,8 @@ export default function Login(){
             setLoading(true);
            const response =  await axios.post("/api/users/login", user)
             console.log("Login successfull", response.data);
-            localStorage.setItem("token", response.data.token);
-            localStorage.setItem("user", JSON.stringify(response.data.user));
+            // localStorage.setItem("token", response.data.token);
+            // localStorage.setItem("user", JSON.stringify(response.data.user));
             toast.success("Login success" )
             router.push("/profile");
             
